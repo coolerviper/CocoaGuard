@@ -1,0 +1,231 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/content_fertilizer_description"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.cocoaguard.cocoaguard.description.FertilizerDescription"
+    tools:showIn="@layout/activity_fertilizer_description">
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <GridLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true"
+            android:layout_below="@+id/fertilizerImage"
+            android:rowCount="2"
+            android:columnCount="2"
+            android:layout_marginBottom="0dp">
+
+
+            <Button
+                android:text="@string/Fertilizer_description_Information"
+                android:layout_width="150dp"
+                android:layout_row="0"
+                android:layout_column="0"
+                android:layout_height="wrap_content"
+                android:id="@+id/buttonInformationDesc"
+                android:layout_gravity="start"
+                android:layout_marginBottom="50dp"
+                android:background="@color/greenButton"
+                />
+
+            <Button
+                android:text="@string/Fertilizer_description_Ingredients"
+                android:layout_width="150dp"
+                android:layout_row="0"
+                android:layout_column="1"
+                android:layout_height="wrap_content"
+                android:id="@+id/buttonIngredientsDesc"
+                android:layout_gravity="end"
+                android:layout_marginBottom="50dp"
+                android:background="@color/greenButton"
+                />
+
+            <Button
+                android:text="@string/Fertilizer_description_Usage"
+                android:layout_width="150dp"
+                android:layout_row="1"
+                android:layout_column="0"
+                android:layout_height="wrap_content"
+                android:layout_gravity="start"
+                android:id="@+id/buttonUsageDesc"
+                android:background="@color/greenButton"
+
+                />
+
+            <Button
+                android:text="@string/Fertilizer_description_Warnings"
+                android:layout_width="150dp"
+                android:layout_row="1"
+                android:layout_column="1"
+                android:layout_height="wrap_content"
+                android:layout_gravity="end"
+                android:id="@+id/buttonWarningsDesc"
+                android:background="@color/greenButton"
+                />
+        </GridLayout>
+
+        <TextView
+            android:text="@string/Fertilizer_Name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/labelNameDesc"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:textSize="25sp"
+            android:gravity="center"/>
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:srcCompat="@drawable/phonska_pic"
+            android:id="@+id/fertilizerImage"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="85dp"
+            android:layout_below="@id/labelNameDesc"
+            android:foregroundGravity="center"
+            android:scaleX="1"
+            android:scaleY="1"
+            android:layout_marginTop="30dp"
+            />
+
+            <!--android:minHeight="200dp"-->
+            <!--android:minWidth="200dp"-->
+
+
+        <Button
+            android:text="@string/Ok_Button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:id="@+id/buttonReset"
+            android:background="@color/testButton5"
+
+            />
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true"
+            android:layout_above="@+id/buttonReset"
+            android:layout_below="@id/fertilizerImage"
+            android:id="@+id/scrollViewUsage"
+            >
+
+            <TextView
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/labelUsageDesc"
+                android:textColor="@color/blackText"
+                android:textAlignment="gravity"
+                android:textSize="18sp"
+
+                />
+        </ScrollView>
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true"
+            android:layout_above="@+id/buttonReset"
+            android:layout_below="@id/fertilizerImage"
+            android:id="@+id/scrollViewWarning"
+
+            >
+
+            <TextView
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/labelWarningsDesc"
+                android:textColor="@color/blackText"
+                android:textAlignment="gravity"
+                android:textSize="18sp"
+
+                />
+        </ScrollView>
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true"
+            android:layout_above="@+id/buttonReset"
+            android:layout_below="@id/fertilizerImage"
+            android:id="@+id/scrollViewIngredients"
+            android:scrollbars="vertical"
+
+            >
+
+            <TextView
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/labelIngredientsDesc"
+                android:textColor="@color/blackText"
+                android:textAlignment="gravity"
+                android:textSize="18sp"
+
+                />
+        </ScrollView>
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true"
+            android:layout_above="@+id/buttonReset"
+            android:layout_below="@id/fertilizerImage"
+            android:id="@+id/scrollViewInfo"
+            >
+
+            <TextView
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/labelInfoDesc"
+                android:textColor="@color/blackText"
+                android:textAlignment="gravity"
+                android:textSize="18sp"
+
+                />
+        </ScrollView>
+
+    </RelativeLayout>
+
+
+    <!-- Image must be 492x431-->
+
+
+
+</RelativeLayout>

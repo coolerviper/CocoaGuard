@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#8B4513</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#228B22</color>
+    <color name="buttonWhite">#FFFFFF</color>
+    <color name="blackText">#000000</color>
+
+    <color name="yellowButton">#FFCA08</color>
+    <color name="testButton2">#2f6b2b</color>
+    <color name="testButton3">#ff7900</color>
+    <color name="testButton4">#003200</color>
+    <color name="testButton5">#e74132</color>
+    <color name="colorButtons">#D57500</color>
+    <color name="greenButton">#009900</color>
+    <color name="textColor">#FFFFFF</color>
+    <color name="LightGray">#d3d3d3</color>
+    <color name="facebookBlue">#3b5998</color>
+
+
+
+</resources>

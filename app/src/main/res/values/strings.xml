@@ -1,0 +1,49 @@
+<resources>
+
+    <string name="app_name">CocoaGuard</string>
+    <string name="action_settings">Settings</string>
+
+    <!--Conent Main -->
+    <string name="Diseases">Diseases</string>
+    <string name="Maps">Map</string>
+    <string name="Camera">Camera</string>
+    <string name="Social_Media">Social Media</string>
+    <string name="Fungicide">Fungicide</string>
+    <string name="Pesticide">Pesticide</string>
+    <string name="Fertilizer">Fertilizer</string>
+    <string name="Cost_Estimator">Cost Estimator</string>
+    <string name="title_activity_pesticide">Pesticide</string>
+    <string name="title_activity_fungicide">Fungicide</string>
+    <string name="title_activity_diseases">Diseases</string>
+    <string name="title_activity_cost_estimator">Cost Estimator</string>
+    <string name="title_activity_fertilizer">Fertilizer</string>
+
+
+    <!--Cost Estimator Strings-->
+    <string name="Labor_Cost">Labor cost</string>
+    <string name="Pesticide_Cost">Pesticide cost</string>
+    <string name="Fertilizer_Cost">Fertilizer cost</string>
+    <string name="Transportation_Cost">Transportation cost</string>
+    <string name="Other_Costs">Other cost(s)</string>
+    <string name="Gross_income">Gross income</string>
+    <string name="Calculate_Profit">Calculate Profit</string>
+    <string name="Total_Profit">Total Profit: 0 GHC</string>
+    <string name="title_activity_fertilizer_description">Fertilizer</string>
+
+
+    <!--Fertilizer Description-->
+    <string name="Fertilizer_Name">Test Fertilizer</string>
+    <string name="Fertilizer_description_Information">Information</string>
+    <string name="Fertilizer_description_Usage">Usage</string>
+    <string name="Fertilizer_description_Ingredients">Ingredients</string>
+    <string name="Fertilizer_description_Warnings">Warnings</string>
+
+
+    <!-- Misc. buttons-->
+    <string name="Ok_Button">OK</string>
+    <string name="title_activity_social_media">Social Media</string>
+    <string name="Facebook">Facebook</string>
+
+
+
+</resources>

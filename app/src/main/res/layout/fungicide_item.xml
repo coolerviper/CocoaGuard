@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/cocoa_bean_default"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:adjustViewBounds="true"
+        android:id="@+id/fungicideIcon"
+        android:maxHeight="80dp"
+        android:maxWidth="80dp"
+        />
+
+    <TextView
+        android:text="Make Shown here"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_toRightOf="@+id/fungicideIcon"
+        android:layout_toEndOf="@+id/fungicideIcon"
+        android:layout_marginLeft="32dp"
+        android:layout_marginStart="32dp"
+        android:id="@+id/labelNameShort"
+
+        />
+
+    <TextView
+        android:text="2000"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/labelNameShort"
+        android:layout_alignStart="@+id/labelNameShort"
+        android:id="@+id/labelNameLong"
+        android:layout_below="@+id/fungicideIcon" />
+
+
+
+</RelativeLayout>
